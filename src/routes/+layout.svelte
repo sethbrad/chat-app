@@ -1,26 +1,23 @@
 <script>
-	import Header from './Header.svelte';
-	import './styles.css';
+	// import Header from './Header.svelte';
+	// import './styles.css';
+
 	import '../app.css';
 </script>
 
 <div class="app">
-	<Header />
+	<!-- <Header /> -->
 
 	<main>
 		<slot />
 	</main>
 
-	<!-- <div class='text-3xl font-bold underline'>
-		blah
-	</div> -->
-
-	<footer>
+	<!-- <footer>
 		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer>
+	</footer> -->
 </div>
 
-<style>
+<!-- <style>
 	.app {
 		display: flex;
 		flex-direction: column;
@@ -55,4 +52,4 @@
 			padding: 12px 0;
 		}
 	}
-</style>
+</style> -->
