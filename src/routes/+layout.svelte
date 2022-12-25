@@ -1,6 +1,7 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
+	import '../app.css';
 </script>
 
 <div class="app">
@@ -9,6 +10,10 @@
 	<main>
 		<slot />
 	</main>
+
+	<!-- <div class='text-3xl font-bold underline'>
+		blah
+	</div> -->
 
 	<footer>
 		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
