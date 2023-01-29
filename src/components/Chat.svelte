@@ -1,23 +1,26 @@
 <script>
 
+	const msgs = ['hello', 'these', 'are', 'some', 'messages'];
 </script>
 
 <section>
+	<div class="w-full m-5 bg-gray">
+		<ul>
+			{#each msgs as msg}
+				<li>{msg}</li>
+			{/each}
+		</ul>
+	</div>
 
-    <div>
-        <!-- this is where the messages will go -->
-    </div>
+	<div class="w-full m-5 flex">
+		<form method="POST">
+			<label for="msg">Chat:</label>
+			<input name="msg" id="msg" type="text" class="m-5 bg-yellow" />
 
-    <div>
-        <textarea>Enter a message...</textarea>
-
-        <button class='flex flex-col justify-between'>
-            Click Me
-        </button>
-    </div>
-
+			
+		</form>
+	</div>
 </section>
 
 <style>
-
 </style>

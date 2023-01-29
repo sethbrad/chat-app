@@ -5,7 +5,7 @@
 	import '../app.css';
 </script>
 
-<div class="app">
+<div class="app-content">
 	<!-- <Header /> -->
 
 	<main>
@@ -17,13 +17,7 @@
 	</footer> -->
 </div>
 
-<!-- <style>
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
-
+<style>
 	main {
 		flex: 1;
 		display: flex;
@@ -35,7 +29,7 @@
 		box-sizing: border-box;
 	}
 
-	footer {
+	/* footer {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -51,5 +45,5 @@
 		footer {
 			padding: 12px 0;
 		}
-	}
-</style> -->
+	} */
+</style>

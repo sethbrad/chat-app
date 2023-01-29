@@ -3,7 +3,7 @@
 	// import welcome from '$lib/images/svelte-welcome.webp';
 	// import welcome_fallback from '$lib/images/svelte-welcome.png';
 
-	import Chat from "../components/Chat.svelte";
+	import Chat from '../components/Chat.svelte';
 </script>
 
 <svelte:head>
@@ -32,7 +32,7 @@
 	<Chat />
 </section>
 
-<!-- <style>
+<style>
 	section {
 		display: flex;
 		flex-direction: column;
@@ -41,7 +41,7 @@
 		flex: 0.6;
 	}
 
-	h1 {
+	/* h1 {
 		width: 100%;
 	}
 
@@ -59,5 +59,5 @@
 		height: 100%;
 		top: 0;
 		display: block;
-	}
-</style> -->
+	} */
+</style>
