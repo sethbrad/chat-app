@@ -10,11 +10,9 @@ const wss = new WebSocketServer({ server });
 
 wss.on('connection', (ws) => {
 	ws.on('message', (message) => {
-		console.log('received: %s', message);
+		console.log(`received -> ${message}`);
 		ws.send(`Hello, you sent -> ${message}`);
 	});
-
-	ws.send('Hi there, I am a WebSocket server');
 });
 
 server.listen(process.env.PORT || 9090, () => {
