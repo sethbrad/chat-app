@@ -1,5 +1,4 @@
 <script>
-
 	const msgs = ['hello', 'these', 'are', 'some', 'messages'];
 </script>
 
@@ -16,8 +15,6 @@
 		<form method="POST">
 			<label for="msg">Chat:</label>
 			<input name="msg" id="msg" type="text" class="m-5 bg-yellow" />
-
-			
 		</form>
 	</div>
 </section>
